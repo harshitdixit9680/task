@@ -11,3 +11,258 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.navbar{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo{
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-menu{
+  list-style: none;
+  display: flex;
+
+}
+.nav-item{
+  margin-left: 30px;
+}
+.nav-link{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover{
+  color: #ddd;
+}
+
+.custom-button{
+  background-color: #fca311;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 12px;
+}
+.custom-button:hover{
+  background-color: #fdcb6e;
+}
+
+
+
+/* Login Signup form */
+.form-container{
+  max-width: 400px;
+  margin: auto;
+}
+.form-label{
+  font-weight: bold;
+}
+.form-control{
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.custom-button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.custom-button:hover{
+  background-color: #0056b3;
+}
+
+
+/* managerdsd */
+/* ManagerComponent.css */
+
+/* Style for the whole component */
+.ManagerDashboard {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+/* Style for table header */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for table data */
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style for select dropdown */
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Style for select dropdown options */
+option {
+  padding: 5px;
+}
+
+
+
+/* Employment component */
+/* EmployeeComponent.css */
+
+/* Style for the whole component */
+.EmployeeComponent {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Style for form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Style for submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for submit button on hover */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+/* amloyee container */
+/* EmployeeRating.css */
+
+/* Style for the whole component */
+.EmployeeRating {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+/* Style for table header */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for table data */
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+
+/* EmployeeRating.css */
+.employee-rating-container {
+  margin: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.employee-table th {
+  background-color: #f2f2f2;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.employee-table tr:hover {
+  background-color: #ddd;
+}
